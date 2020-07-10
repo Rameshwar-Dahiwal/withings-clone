@@ -1,5 +1,6 @@
 :root {
   --f-color: #fff;
+  --showdow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 * {
   margin: 0;
@@ -123,7 +124,7 @@ a {
   flex: 1;
   background-color: #fefefe;
   border-radius: 1.5rem;
-  box-shadow: 0.5rem 0.5rem 1rem rgba(199, 199, 209, 0.6);
+  box-shadow: var(--showdow);
   margin: -2.5rem 1rem 0rem 1rem;
   display: flex;
   flex-direction: column;
@@ -196,8 +197,9 @@ a {
   width: 100%;
   height: 25rem;
   background: url(/img/phone.jpg) center center/cover;
+  box-shadow: var(--showdow);
   color: var(--f-color);
-  box-shadow: inset 5rem 4rem 3rem rgba(0, 0, 0, 0.6);
+
   border-radius: 1.5rem;
   overflow: hidden;
   margin-bottom: 3rem;
@@ -235,6 +237,7 @@ a {
 }
 .watches {
   background: gray;
+  box-shadow: var(--showdow);
   flex: 1;
   display: flex;
   align-items: flex-end;
@@ -252,6 +255,7 @@ a {
 
 .scale-monitor-container {
   flex: 1;
+
   display: flex;
   flex-direction: column;
   align-items: space-between;
@@ -263,6 +267,7 @@ a {
 .scales {
   flex: 1;
   background: gray;
+  box-shadow: var(--showdow);
   margin-bottom: 1rem;
   border-radius: 1rem;
   display: flex;
@@ -275,6 +280,7 @@ a {
 }
 
 .monitors {
+  box-shadow: var(--showdow);
   flex: 1;
   display: flex;
   align-items: flex-end;
@@ -293,7 +299,7 @@ a {
   background: linear-gradient(to top right, #635fe2, #31a3dc, #01e2d6);
   color: var(--f-color);
   padding: 3rem;
-
+  box-shadow: var(--showdow);
   display: flex;
   flex-direction: column;
   align-items: center;
