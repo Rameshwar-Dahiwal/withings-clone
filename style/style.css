@@ -7,6 +7,9 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 
 .wrapper {
   width: 95%;
@@ -66,6 +69,14 @@
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 2rem;
+}
+.new {
+  border: 1px solid black;
+  padding: 0rem 0.5rem;
+  margin-left: 0.7rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.2rem;
 }
 .info {
   width: 40%;
