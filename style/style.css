@@ -1,6 +1,6 @@
 :root {
   --f-color: #fff;
-  --showdow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  --showdow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0);
 }
 * {
   margin: 0;
@@ -345,6 +345,9 @@ p {
 .links-container ul li:nth-child(1) {
   font-weight: bold;
 }
+.links-container ul li a:hover {
+  color: #bec9d9;
+}
 .my-account {
   margin-top: 2.5rem;
 }
@@ -375,7 +378,14 @@ p {
 .icons img {
   width: 3rem;
   height: 2rem;
+  transition: ease-in;
+  transition-duration: 0.3s;
 }
+.icons img:hover {
+  width: 3.4rem;
+  height: 2.4rem;
+}
+
 .regions {
   display: flex;
   flex-direction: column;
@@ -404,6 +414,9 @@ p {
 .footer-links ul li {
   padding: 0rem 1rem;
   border-right: 1px solid black;
+}
+.footer-links ul li a:hover {
+  color: #bec9d9;
 }
 .footer-links ul :nth-child(6) {
   border-right: none;
